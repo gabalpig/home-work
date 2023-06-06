@@ -1,0 +1,27 @@
+nav {
+    background-color: #fff;
+    width: 40%;
+    height: 30%;
+}
+
+.validation {
+    list-style: none;
+    width: 93%;
+    height: 30%;
+    padding-left: 0;
+    cursor: pointer;
+}
+
+.validation li {
+    background: url(./images/validation_icon.png) no-repeat 5px 4px #cccccc;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    padding: 0 24px;
+}
+
+.validation a {
+    font-size: 105%;
+    font-weight: 20%;
+    color: black;  
+    text-decoration: none; 
+}

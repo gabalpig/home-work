@@ -1,0 +1,31 @@
+main {
+    width: 80%;
+    height: 80%;
+    background-color: #fff;
+}
+
+.term {
+    border: 1px solid #a3a3a3;
+    width: 50%;
+    height: 30%;
+    background: linear-gradient(180deg, #cccccc 0%, #eeeeee 100%);
+}
+
+.list {
+    width: 90%;
+    position: relative;
+}
+
+.img-left {
+    position: absolute;
+    left: 0;
+}
+
+.img-right {
+    position: absolute;
+    right: 0;
+}
+
+dt {
+    float: right;
+}

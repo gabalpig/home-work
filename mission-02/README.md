@@ -4,7 +4,7 @@
 > Web Cafe 시안 중 로그인 폼 구현 과제 결과물
 
 # Result
-> <img src="/home-work/mission-02/homework.jpg"
+> <img src="/home-work/mission-02/homework.jpg">
 
 # Description
 > form 태그를 사용하여 모든 요소를 감싼 후 fieldset, input, button 태그로 구현했습니다.

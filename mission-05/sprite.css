@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.accent-color {
+    color: #ed55ef;
+}
+
+.favorite-site {
+    position: relative;
+    width: 190px;
+    border: 1px solid #a3a3a3a3;
+    border-radius: 5px;
+    background: linear-gradient(180deg, #cccccc 0%, #eeeeee 100%);
+    padding: 12px;
+    margin: 100px auto;
+}
+
+.favorite-site-title {
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+
+.site-list-wrapper {
+    display: flex;
+    flex-flow: column nowrap;
+    margin-top: 10px;
+    font-size: 11px;
+    gap: 8px;
+}
+
+.site-list {
+    background: url(./rank.png) no-repeat;
+    width: 100%;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.list-w3c {
+    background-position: 154px 2px;
+}
+
+.list-standards {
+    background-position: 154px -42px;
+}
+
+.list-garden {
+    background-position: 154px -20px;
+}
+
+.list-mdn {
+    background-position: 154px 2px;
+}
+
+.link-num {
+    display: inline-block;
+    background: #a3a3a3a3;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    border-radius: 5px;
+    margin-right: 4px;
+    font-size: 11px;
+    color: #fff;
+    text-align: center;
+}
+
+.favorite-site-more {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    font-size: 14px;
+}
+
+.more-plus {
+    margin-right: 5px;
+    font-size: 15px;
+    font-weight: 900;
+    color: #447231;
+}
+
+a {
+    text-decoration: none;
+}
